@@ -9,7 +9,7 @@ public class Batch {
 			String inQry1 = "insert into student.student values(13,'DAVID','UK')";
 			String delQry = "delete from student.student where id = 12";
 			String inQry2 = "insert into student.student values(12,'Scott','UK')";
-			String upQry = "insert into student.student values(15,'KING','USA')";
+			String upQry = "insert into student.student values(15,'KING','USA')";//added code
 			Class.forName("com.mysql.jdbc.Driver");
 			
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306?user=root&password=root");
